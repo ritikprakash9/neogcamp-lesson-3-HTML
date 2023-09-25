@@ -1,124 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML - Tutorial by neogcamp</title>
-    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Ritik Prakash</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
-
 <body>
-    <h1>Ritik Prakash Component Library</h1>
-
-    <p>
-        I am attending neog.camp and I want to make a library which would make all
-        my project look good and consistent.
-    </p>
-
-    <hr />
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-
-    <p>
-        Let me show you the normal text. This is free flowing and will wrap at the
-        end like a paragraph.
-    </p>
-
-    <small>This is relatively smaller text</small>
-
-    <hr />
-    <h2>@container</h2>
-
-    <h2>fluid container</h2>
-    <p>This is a fluid container and it will go till then end of the page</p>
-
-    <h2>center container</h2>
-    <p>This is a centered container and it will go till the specified width</p>
-
-    <hr />
-
-    <h2>@links</h2>
-    <a class="primary" href="https://google.com" target="_blank">Primary link</a>
-    <a class="secondary" href="https://google.co.in" target="_blank">Secondary Link</a>
-
-    <hr />
-
-    <h2>@lists</h2>
-
-    <h2>unordered list</h2>
-
-    <ul class="non-bullet-list">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item three</li>
-    </ul>
-
-    <h2>unordered inline list</h2>
-
-    <ul class="non-bullet-list inline-list list">
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h2>reverse ordered list</h2>
-
-    <ol reversed>
-        <li>Milk</li>
-        <li>eggs</li>
-        <li>breads</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
     <nav class="navbar">
-        <div>iAmBrand</div>
+        <div class="txt-bold">Ritik Prakash</div>
         <ul class="inline-list non-bullet-list nav-list">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Product</a></li>
-            <li><a href="/">About</a></li>
+            <li><a href="/"><span class="txt-bold">Home</span> </a></li>
+            <li><a href="./project.html">Projects</a></li>
+            <li><a href="./blog.html">Blog</a></li>
         </ul>
     </nav>
-
-    <hr />
-
+    <br>
     <header class="hero">
-        <h2>@header</h2>
         <img id="developer-img" src="./images/developer.svg" alt="" />
         <h2 class="txt-center grey-txt">
-            This is Ritik Prakash <span class="primary-span"> Web Developer </span>
+            I am Ritik Prakash <span class="primary-span"> Web Developer </span>
         </h2>
     </header>
-    <hr />
 
-    <h2>@section</h2>
-    <section class="white-section ">
-        <h3 class="txt-center">White Section</h3>
-        <p class="txt-center">We are open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does amkes us stronger. Together we can continue to drive innovation on the web to server the greater good. It starts here, with you.</p>
-    </section>
-
+    <br>
     <section class="off-white">
-        <h3 class="txt-center">off white section</h3>
-        <p class="txt-center">We are open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does amkes us stronger. Together we can continue to drive innovation on the web to server the greater good. It starts here, with you.</p>
+        <h3 class="txt-center">Technologies</h3>
+        <br>
+        <p class="txt-center">I am familiar with HTML5, CSS3, Javascript, React, Git, Web-Hoisting</p>
     </section>
-    <hr />
 
+    <br>
+    <section class="white-section ">
+        <div class="sec-align">
+            <h3 class="txt-center">Projects</h3>
+            <br>
+        <p class="txt-center">I like to showcase my work and thus, you can see my projects hosted online</p>
+        <a class="primary" href="./project.html">See Projects</a>
+        </div>
+    </section>
+
+    <br>
+    <section class="off-white">
+        <div class="sec-align">
+            <h3 class="txt-center">Blogs</h3>
+            <br>
+        <p class="txt-center">I am also working on some technical and non technical blogs. I like to document my journey of learning.</p>
+        <a class="secondary" href="./blog.html">Read Blog</a>
+        </div>
+    </section>
+
+    <br>
     <footer class="footer">
-        <h2 class="txt-center">@footer</h2>
-        <p class="txt-center">Some small heading inside footer</p>
+        <h2 class="txt-center" style="color: white; font-family: 'Roboto', sans-serif; margin-top: 10px;">Social Media Presence</h2>
+        <br>
 
         <ul class="non-bullet-list inline-list">
-            <li>Social One</li>
-            <li>Social Two</li>
-            <li>Social Three</li>
+            <li><a href="https://www.linkedin.com/in/ritik-prakash/"><img src="./icon/linkedin.svg" alt="" width="80px"></a></li>
+            <li><a href="https://github.com/ritikprakash9"><img src="./icon/github.svg" alt="" width="80px"></a></li>
+            <li><a href="https://www.instagram.com/ritik_prakash_/"><img src="./icon/instagram-circle.svg" alt="" width="80px"></a></li>
         </ul>
     </footer>
 </body>
-
 </html>
