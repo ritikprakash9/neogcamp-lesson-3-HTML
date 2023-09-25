@@ -12,6 +12,17 @@
     --off-white:#d1d5db;
 }
 
+::-webkit-scrollbar
+{
+    width: 0.3em;
+    
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 20px;
+    background-color: var(--off-white);
+}
 *
 {
     margin: 0px;
