@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML - Tutorial by neogcamp</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
     <h1>Ritik Prakash Component Library</h1>
 
-    <p>I am attending neog.camp and I want to make a library which would make all my project look good and consistent.</p>
+    <p>
+        I am attending neog.camp and I want to make a library which would make all
+        my project look good and consistent.
+    </p>
 
-    <hr>
+    <hr />
 
     <h2>@typography</h2>
 
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest</h2>
 
-    <p>Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
+    <p>
+        Let me show you the normal text. This is free flowing and will wrap at the
+        end like a paragraph.
+    </p>
 
     <small>This is relatively smaller text</small>
 
-    <hr>
+    <hr />
     <h2>@container</h2>
 
     <h2>fluid container</h2>
@@ -30,19 +39,19 @@
     <h2>center container</h2>
     <p>This is a centered container and it will go till the specified width</p>
 
-    <hr>
+    <hr />
 
     <h2>@links</h2>
-    <a href="https://google.com" target="_blank">Primary link</a>
-    <a href="https://google.co.in" target="_blank">Secondary Link</a>
+    <a class="primary" href="https://google.com" target="_blank">Primary link</a>
+    <a class="secondary" href="https://google.co.in" target="_blank">Secondary Link</a>
 
-    <hr>
+    <hr />
 
     <h2>@lists</h2>
-    
+
     <h2>unordered list</h2>
 
-    <ul>
+    <ul class="non-bullet-list">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item three</li>
@@ -50,7 +59,7 @@
 
     <h2>unordered inline list</h2>
 
-    <ul>
+    <ul class="non-bullet-list inline-list list">
         <li>Inline Item One</li>
         <li>Inline Item Two</li>
         <li>Inline Item Three</li>
@@ -58,56 +67,58 @@
 
     <h2>reverse ordered list</h2>
 
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>eggs</li>
         <li>breads</li>
     </ol>
 
-    <hr>
+    <hr />
 
     <h2>@nav</h2>
 
-    <nav>
+    <nav class="navbar">
         <div>iAmBrand</div>
-        <ul>
+        <ul class="inline-list non-bullet-list nav-list">
             <li><a href="/">Home</a></li>
             <li><a href="/">Product</a></li>
             <li><a href="/">About</a></li>
         </ul>
     </nav>
 
-    <hr>
+    <hr />
 
-    <header>
+    <header class="hero">
         <h2>@header</h2>
-        <img src="./images/developer.svg" alt="">
-        <h2>Heading inside hero</h2>
+        <img id="developer-img" src="./images/developer.svg" alt="" />
+        <h2 class="txt-center grey-txt">
+            This is Ritik Prakash <span class="primary-span"> Web Developer </span>
+        </h2>
     </header>
-    <hr>
+    <hr />
 
     <h2>@section</h2>
-    <section>
-        <h3>White Section</h3>
+    <section class="white-section ">
+        <h3 class="txt-center">White Section</h3>
         <p>This will have white background</p>
-
-        <h3>off white section</h3>
-        <p>This will have grey background</p>
-
     </section>
-    <hr>
 
-    <h2>@footer</h2>
+    <section class="off-white">
+        <h3 class="txt-center">off white section</h3>
+        <p>This will have grey background</p>
+    </section>
+    <hr />
 
-    <footer>
-        <p>Some small heading inside footer</p>
+    <footer class="footer">
+        <h2 class="txt-center">@footer</h2>
+        <p class="txt-center">Some small heading inside footer</p>
 
-        <ul>
+        <ul class="non-bullet-list inline-list">
             <li>Social One</li>
             <li>Social Two</li>
             <li>Social Three</li>
         </ul>
     </footer>
-
 </body>
+
 </html>
